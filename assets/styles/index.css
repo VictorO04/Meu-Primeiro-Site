@@ -138,3 +138,57 @@ footer {
 footer p {
     font-size: 1.5rem;
 }
+
+#mudarPagina {
+    background-color: rgb(255, 246, 216);
+    text-align: center;
+    color: rgba(185, 151, 57, 0.863);
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 24px 16px;
+    }
+
+    .about-section,
+    .hobbies,
+    .contact {
+        width: 100%;
+        padding: 24px;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    li {
+        min-width: unset;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    header {
+        padding: 40px 20px;
+    }
+
+    header h1,
+    header p,
+    .contact p,
+    .contact h2 {
+        font-size: 20px;
+    }
+
+    .texto-sobre-mim {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
